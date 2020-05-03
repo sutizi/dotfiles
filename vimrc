@@ -23,3 +23,9 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 ":helptags ~/.vim/bundle/ctrlp.vim/doc
 
+"DONT use arrows when youre learning vim
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
+
