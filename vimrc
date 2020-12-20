@@ -4,6 +4,14 @@ set number
 "Set auto-ident
 set ai
 
+"Set tabs
+set tabstop=2
+set shiftwidth=2
+set expandtab
+
+"Highlight all search pattern matches
+set hlsearch
+
 "Show data from file
 set ruler
 
